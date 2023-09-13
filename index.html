@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bindu's portfolio-website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand">Bindu's Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="intro">
+      <h1 class="heading">Python Developer & Student</h1>
+      <span id="element"></span>
+      <br />
+      <img class="my-image" src="images/developers.png" alt="image" />
+      <br />
+      <img class="device-image" src="images/devices.png" alt="" />
+      <div class="my-self">
+        <h3 class="intro-head">I’m Bindu. Nice to meet you.</h3>
+        <p class="self-intro">
+          Hello there! I'm thrilled to introduce myself a BCA (Bachelor of
+          Computer Applications) student with a keen interest in technology and
+          programming, aspiring to become a proficient Python developer.
+        </p>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="card-group skill-deck">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100">
+              <img
+                class="skill-img"
+                src="images/dev.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Python-Developer</h5>
+                <p class="card-text card-info">
+                  I love writing code in python to build cool things. I make
+                  technology work.
+                </p>
+                <p class="card-text card-head">Skills:</p>
+                <p class="card-text">Web Development</p>
+                <p class="card-text">Data Analysis</p>
+                <p class="card-text">Automation Skills</p>
+                <p class="card-text">API Intergration</p>
+                <p class="card-text">Git Knowledge</p>
+                <p class="card-text">Linux</p>
+                <br /><br /><br /><br />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100">
+              <img
+                class="skill-img"
+                src="images/web.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Web-Developer</h5>
+                <p class="card-text card-info">
+                  I like to code things from scratch, and enjoy bringing ideas
+                  to life in the browser.
+                </p>
+                <p class="card-text card-head">Dev Tools:</p>
+                <p class="card-text">VS Code</p>
+                <p class="card-text">Terminal</p>
+                <p class="card-text">Git</p>
+                <p class="card-text">Bootstrap</p>
+                <p class="card-text">Git Knowledge</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" >
+            <div class="card h-100">
+              <img
+                class="skill-img"
+                src="images/sketch.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Designer</h5>
+                <p class="card-text card-info">
+                  I value simple content structure, clean design patterns, and
+                  thoughtful interactions.
+                </p>
+                <p class="card-text card-head">Design Tools:</p>
+                <p class="card-text">Affinity Designer</p>
+                <p class="card-text">Figma</p>
+                <p class="card-text">Font Awesome</p>
+                <p class="card-text">Pen & Paper</p>
+                <p class="card-text">Sketch</p>
+                <p class="card-text">Webflow</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <p class="self-intro">
+        Here are a few past design projects I've worked on.
+      </p>
+      <div class="projects-container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="project-container project-card">
+              <img
+                src="images/bhatoy-blog.png"
+                alt="expense-tracker"
+                loading="lazy"
+                class="project-pic"
+              />
+              <h3 class="project-title">Blog Website</h3>
+              <p class="project-details">
+                A dynamic blog website crafted using the perfect fusion of Python Flask and Bootstrap!
+                 platform that ensures an enjoyable reading experience
+              </p>
+              <a
+                href="https://bhatoy-blog.onrender.com/"
+                target="_blank"
+                class="project-link"
+                >Check it Out</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 ">
+            <div class="project-container project-card">
+              <img
+                src="images/cv-website.png"
+                alt="netflic-clone"
+                loading="lazy"
+                class="project-pic"
+              />
+              <h3 class="project-title">CV Website</h3>
+              <p class="project-details">
+                CV website, meticulously designed with HTML and CSS.
+              </p>
+              <a
+                href="https://ravinder7347.github.io/personal/"
+                target="_blank"
+                class="project-link"
+                >Check it Out</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="project-container project-card">
+              <img
+                src="images/tindog.png"
+                alt="greeny-earth"
+                loading="lazy"
+                class="project-pic"
+              />
+              <h3 class="project-title">Tindog Website</h3>
+              <p class="project-details">
+                Introducing my Tindog website project, a captivating demonstration of my HTML, CSS, and Bootstrap skills
+              </p>
+              <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="contact-head">Get in touch</h1>
+      <p class="quote">Code with purpose, create with passion.</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/binduuyy/?next=%2F"
+          ><img src="images/instagram.png" alt=""
+        /></a>
+        <a href="https://www.facebook.com/ravinder.bhatoy.1?mibextid=ZbWKwL"
+          ><img src="images/facebook.png" alt=""
+        /></a>
+        <a href="https://twitter.com/binduuyy"
+          ><img src="images/twitter.png" alt=""
+        /></a>
+        <a href="https://www.linkedin.com/in/ravinder-d-bhatoy-69b1a3254/"
+          ><img src="images/linkedin.png" alt=""
+        /></a>
+        <a
+          href="https://www.snapchat.com/add/binduyy?share_id=KSBlkYWUgzM&locale=en-IN"
+          ><img src="images/snapchat.png" alt=""
+        /></a>
+        <p class="copyright">Handcrafted by me &#169; Ravinder D. Bhatoy</p>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "I design and code beautifully simple things, and I love what I do.",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

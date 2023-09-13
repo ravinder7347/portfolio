@@ -1,0 +1,200 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.navbar-brand {
+    padding-left: 40px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.nav-item {
+    padding: 0 10px
+}
+
+.nav-item :hover {
+    color: #279EFF;
+    text-decoration-line: underline;
+}
+
+.navbar {
+    padding: 1rem 0 2rem;
+}
+
+.heading{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+.my-self {
+    position: absolute;
+    background-color: #279EFF;
+    margin: auto;
+    padding: 120px 0 250px ;
+    color: #fff;
+}
+
+.intro-head {
+    font-weight: 500;
+}
+
+.self-intro {
+    padding-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 50%;
+    margin: auto;
+}
+
+#element{
+    font-size: 1.3rem;
+}
+
+.my-image {
+    width: 10%;
+    /* border-radius: 100%; */
+    padding-top: 50px;
+}
+
+.device-image {
+    padding-top: 100px;
+    width: 30%;
+}
+
+
+.skill-img {
+    padding-top: 40px;
+    margin: auto;
+    width: 15%;
+}
+
+.skill-deck{
+    margin: auto;
+    margin: 50px 100px 30px;
+    border-radius: 25px;
+    margin-top: 380px;
+}
+
+.card-head {
+    color: #279EFF;
+    font-weight: 500;
+}
+
+.card-title {
+    padding: 20px 0;
+}
+
+.card-info {
+    width: 80%;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.projects-head {
+    padding-top: 70px;
+}
+
+.projects {
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+
+.projects img {
+    padding-bottom: 50px;
+}   
+  
+.project-pic {
+    width: 75%;
+    height: 60%;
+  }
+  
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.projects-title {
+    margin-bottom: 1rem;
+  }
+  
+.project-container {
+    margin: auto;
+    width: 27.875rem;
+    padding: 1rem;
+  }
+
+.project-container p {
+    padding: 0.4rem;
+  }
+
+
+.project-container p {
+    padding: 0.4rem;
+  }
+  
+.project-title {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+.project-details {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+.project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    margin: 50px 30px;
+    padding-bottom: 50px;
+}
+
+.project-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+#contact {
+    color: #fff;
+    background-color: #279EFF;
+    height: 500px;
+}
+
+.contact-head {
+    padding: 100px 0 30px;
+}
+
+.social-icons a img {
+    color: white;
+    width: 2.5rem;
+    margin: 10px;
+}
+
+.social-icons a img:hover {
+    width: 2.8rem;
+}
+
+
+.copyright {
+    padding-top: 30px;
+}   
+
+.quote {
+    font-size: 1.5rem;
+    margin: auto;
+    width: 25%;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+    .heading {
+        padding-top: 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        margin: auto;
+        margin-top: 50px;
+    }
+}
