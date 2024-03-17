@@ -121,6 +121,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 2rem;
+    grid-row-gap: 4rem;
     justify-items: center;
     margin-inline: auto;
 }
